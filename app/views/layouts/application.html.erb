@@ -8,7 +8,9 @@
 </head>
 <body>
  <%= render 'layouts/header' %>
-<%= image_tag("bg-photo2.jpg", :class => "img-responsive") %>
+ <div id="bg">
+<h1>D-posts</h1>
+</div>
 <div class="container">
     <% flash.each do |message_type, message| %> <!-- ここから -->
       <div class="alert alert-<%= message_type %>"><%= message %></div>
