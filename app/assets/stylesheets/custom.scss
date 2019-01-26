@@ -4,7 +4,7 @@
 /* universal */
 
 body {
-  padding-top: 60px;
+  padding-top: 50px;
 }
 
 section {
@@ -202,5 +202,9 @@ aside {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding-bottom: 100px;
+  padding-bottom: 200px;
+}
+
+#bg h1 {
+    margin:0 0;
 }
