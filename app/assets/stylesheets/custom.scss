@@ -4,8 +4,7 @@
 /* universal */
 
 body {
-　font-family:  "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
-　padding-top: 50px;
+  padding-top: 60px;
 }
 
 section {
@@ -24,7 +23,6 @@ textarea {
   margin-bottom: 10px;
 }
 
-
 /* typography */
 
 h1, h2, h3, h4, h5, h6 {
@@ -33,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 3em;
-  letter-spacing: -1px;
+  letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: center;
 }
@@ -87,10 +85,6 @@ input, textarea, select, .uneditable-input {
   width: 100%;
   margin-bottom: 15px;
   @include box_sizing;
-}
-
-textarea {
-    margin-top: 15px;
 }
 
 input {
@@ -197,19 +191,3 @@ aside {
   }
 }
 
-
-#bg {
-  background-image: image-url("bg-photo.jpg");
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding-bottom: 200px;
-}
-
-#bg h1{
-    color: #fff;
-    text-shadow: 1px 1px 0px #000;
-    margin:0 0;
-    padding-top:100px;
-}
- 
