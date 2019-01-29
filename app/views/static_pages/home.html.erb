@@ -4,19 +4,19 @@
       <section class="user_info">
         <%= render 'shared/user_info' %>
       </section>
-        <section class="micropost_form">
+      <section class="micropost_form">
         <%= render 'shared/micropost_form' %>
-      </section>      
+      </section>
     </aside>
     <div class="col-md-8">
-<h3>DPOSTS Feed</h3>
+      <h3>Dpost Feed</h3>
       <%= render 'shared/feed' %>
     </div>    
   </div>
 <% else %>
   <div class="center jumbotron">
-    <h2>DPOSTSへようこそ!!</h2>
+    <h1>Welcome to the Dposts</h1>
 
-    <%= link_to "初めての方はこちら", signup_path, class: "btn btn-lg btn-primary" %>
+    <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
   </div>
 <% end %>
