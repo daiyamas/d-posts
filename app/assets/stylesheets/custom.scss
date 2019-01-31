@@ -4,7 +4,8 @@
 /* universal */
 
 body {
-  padding-top: 60px;
+  　font-family:  "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+    padding-top: 50px;
 }
 
 section {
@@ -191,3 +192,17 @@ aside {
   }
 }
 
+#bg {
+  background-image: image-url("bg-photo2.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 200px;
+}
+
+#bg h1 {
+    color: #fff;
+    text-shadow: 1px 1px 0px #000;
+    margin:0 0;
+    padding-top:100px;
+}
